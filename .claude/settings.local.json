@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find \"C:\\\\Users\\\\ehret\\\\AppData\\\\Local\\\\Temp\\\\claude\" -type f \\\\\\( -iname \"*.png\" -o -iname \"*.jpg\" -o -iname \"*.jpeg\" \\\\\\) -newermt \"-30 minutes\" 2>/dev/null)",
+      "Read(//c/Users/ehret/AppData/Roaming/Claude/**)",
+      "Read(//c/Users/ehret/AppData/Local/Temp/**)",
+      "Bash(mkdir -p 'C:\\\\Users\\\\ehret\\\\Documents\\\\corvinus-student-tutoring')",
+      "Bash(cp -r 'C:\\\\Users\\\\ehret\\\\AppData\\\\Roaming\\\\Claude\\\\scratch-workspaces\\\\68868cdf-fa04-41bf-8040-f7adbf1bbb9d\\\\302f3bd5-f77d-448a-a158-82c4b84b902c\\\\scratch-2026-09-06-121dc9/index.html' 'C:\\\\Users\\\\ehret\\\\AppData\\\\Roaming\\\\Claude\\\\scratch-workspaces\\\\68868cdf-fa04-41bf-8040-f7adbf1bbb9d\\\\302f3bd5-f77d-448a-a158-82c4b84b902c\\\\scratch-2026-09-06-121dc9/styles.css' 'C:\\\\Users\\\\ehret\\\\AppData\\\\Roaming\\\\Claude\\\\scratch-workspaces\\\\68868cdf-fa04-41bf-8040-f7adbf1bbb9d\\\\302f3bd5-f77d-448a-a158-82c4b84b902c\\\\scratch-2026-09-06-121dc9/script.js' 'C:\\\\Users\\\\ehret\\\\AppData\\\\Roaming\\\\Claude\\\\scratch-workspaces\\\\68868cdf-fa04-41bf-8040-f7adbf1bbb9d\\\\302f3bd5-f77d-448a-a158-82c4b84b902c\\\\scratch-2026-09-06-121dc9/serve.js' 'C:\\\\Users\\\\ehret\\\\AppData\\\\Roaming\\\\Claude\\\\scratch-workspaces\\\\68868cdf-fa04-41bf-8040-f7adbf1bbb9d\\\\302f3bd5-f77d-448a-a158-82c4b84b902c\\\\scratch-2026-09-06-121dc9/.claude' 'C:\\\\Users\\\\ehret\\\\AppData\\\\Roaming\\\\Claude\\\\scratch-workspaces\\\\68868cdf-fa04-41bf-8040-f7adbf1bbb9d\\\\302f3bd5-f77d-448a-a158-82c4b84b902c\\\\scratch-2026-09-06-121dc9/assets' 'C:\\\\Users\\\\ehret\\\\Documents\\\\corvinus-student-tutoring/')",
+      "Read(//c/Users/ehret/Documents/**)",
+      "Read(//c/Users/ehret/Documents/corvinus-student-tutoring/**)"
+    ]
+  }
+}
