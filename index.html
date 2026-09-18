@@ -19,12 +19,13 @@
       <span class="logo-text">Corvinus Student Tutoring</span>
     </a>
     <nav class="main-nav" id="main-nav">
-      <a href="#rolunk">Rólunk</a>
-      <a href="#orak">Órák</a>
-      <a href="#foglalas">Foglalás</a>
-      <a href="#gyik">GYIK</a>
+      <a href="#rolunk" data-i18n="nav.about">Rólunk</a>
+      <a href="#orak" data-i18n="nav.classes">Órák</a>
+      <a href="#foglalas" data-i18n="nav.booking">Foglalás</a>
+      <a href="#gyik" data-i18n="nav.faq">GYIK</a>
     </nav>
-    <a href="#foglalas" class="btn btn-primary nav-cta">Foglalj Órát</a>
+    <a href="#foglalas" class="btn btn-primary nav-cta" data-i18n="cta.bookClass">Foglalj Órát</a>
+    <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Switch to English">EN</button>
     <button class="nav-toggle" id="nav-toggle" aria-label="Menü megnyitása">
       <span></span><span></span><span></span>
     </button>
@@ -35,12 +36,12 @@
 
   <section class="hero">
     <div class="container hero-inner">
-      <p class="eyebrow">Budapesti Corvinus Egyetem · Diákszervezet</p>
+      <p class="eyebrow" data-i18n="hero.eyebrow">Budapesti Corvinus Egyetem · Diákszervezet</p>
       <h1>Corvinus Student Tutoring</h1>
-      <p class="hero-subtitle">Ingyenes, kiscsoportos korrepetálás felsőbb éves diákoktól — hogy magabiztosan vágj neki a legnehezebb tárgyaknak.</p>
+      <p class="hero-subtitle" data-i18n="hero.subtitle">Ingyenes, kiscsoportos korrepetálás felsőbb éves diákoktól — hogy magabiztosan vágj neki a legnehezebb tárgyaknak.</p>
       <div class="hero-actions">
-        <a href="#foglalas" class="btn btn-primary btn-lg">Foglalj Órát</a>
-        <a href="#rolunk" class="btn btn-ghost btn-lg">Tudj meg többet</a>
+        <a href="#foglalas" class="btn btn-primary btn-lg" data-i18n="cta.bookClass">Foglalj Órát</a>
+        <a href="#rolunk" class="btn btn-ghost btn-lg" data-i18n="cta.learnMore">Tudj meg többet</a>
       </div>
     </div>
   </section>
@@ -49,10 +50,10 @@
     <div class="container">
       <div class="about-grid">
         <div class="about-text">
-          <p class="eyebrow">Rólunk</p>
-          <h2>Miért jött létre a Corvinus Student Tutoring?</h2>
-          <p>Elegünk lett abból, hogy a minőségi felkészülés csak drága magántanároktól elérhető. Úgy gondoltuk, ennek nem kell így lennie — hiszen a legjobb magyarázatot gyakran attól a diáktársunktól kapjuk, aki egy évvel korábban ugyanazon a vizsgán ment keresztül.</p>
-          <p>Ezért indítottuk el ezt a szervezetet: felsőbb éves Corvinus-os hallgatók tartanak <strong>teljesen ingyenes</strong>, kiscsoportos órákat alsóbb éveseknek — főleg gólyáknak — a legnehezebb, legtöbbet bukott tárgyakból. Célunk, hogy mindenki hozzáférjen minőségi, érthető oktatáshoz, anyagi helyzettől függetlenül.</p>
+          <p class="eyebrow" data-i18n="about.eyebrow">Rólunk</p>
+          <h2 data-i18n="about.heading">Miért jött létre a Corvinus Student Tutoring?</h2>
+          <p data-i18n="about.p1">Elegünk lett abból, hogy a minőségi felkészülés csak drága magántanároktól elérhető. Úgy gondoltuk, ennek nem kell így lennie — hiszen a legjobb magyarázatot gyakran attól a diáktársunktól kapjuk, aki egy évvel korábban ugyanazon a vizsgán ment keresztül.</p>
+          <p data-i18n-html="about.p2">Ezért indítottuk el ezt a szervezetet: felsőbb éves Corvinus-os hallgatók tartanak <strong>teljesen ingyenes</strong>, kiscsoportos órákat alsóbb éveseknek — főleg gólyáknak — a legnehezebb, legtöbbet bukott tárgyakból. Célunk, hogy mindenki hozzáférjen minőségi, érthető oktatáshoz, anyagi helyzettől függetlenül.</p>
         </div>
         <div class="about-highlights">
           <div class="highlight-card reveal">
@@ -65,8 +66,8 @@
                 <path d="M12 9c3 0 4-1.5 4-2.8C16 5 15 4 13.8 4 12.4 4 12 6 12 9z"/>
               </svg>
             </span>
-            <h3>Ingyenes</h3>
-            <p>Minden óránk díjmentes, csak regisztráció szükséges hozzá.</p>
+            <h3 data-i18n="feature.free.title">Ingyenes</h3>
+            <p data-i18n="feature.free.desc">Minden óránk díjmentes, csak regisztráció szükséges hozzá.</p>
           </div>
           <div class="highlight-card reveal">
             <span class="icon-badge">
@@ -77,8 +78,8 @@
                 <polyline points="7 21 6.5 17.5 10 18"/>
               </svg>
             </span>
-            <h3>Diáktól diáknak</h3>
-            <p>Oktatóink maguk is nemrég ültek ugyanazon a vizsgán.</p>
+            <h3 data-i18n="feature.peer.title">Diáktól diáknak</h3>
+            <p data-i18n="feature.peer.desc">Oktatóink maguk is nemrég ültek ugyanazon a vizsgán.</p>
           </div>
           <div class="highlight-card reveal">
             <span class="icon-badge">
@@ -89,8 +90,8 @@
                 <path d="M15 19c.2-2 1.7-3.6 3.7-3.9"/>
               </svg>
             </span>
-            <h3>Kiscsoportos</h3>
-            <p>Maximum 15 fő egy órán, személyesen a Corvinuson.</p>
+            <h3 data-i18n="feature.small.title">Kiscsoportos</h3>
+            <p data-i18n="feature.small.desc">Maximum 15 fő egy órán, személyesen a Corvinuson.</p>
           </div>
         </div>
       </div>
@@ -99,8 +100,8 @@
 
   <section class="section section-alt">
     <div class="container">
-      <p class="eyebrow center">Hogyan működik</p>
-      <h2 class="center">Három egyszerű lépés</h2>
+      <p class="eyebrow center" data-i18n="how.eyebrow">Hogyan működik</p>
+      <h2 class="center" data-i18n="how.heading">Három egyszerű lépés</h2>
       <div class="steps">
         <div class="step reveal">
           <span class="icon-badge icon-badge-lg">
@@ -110,8 +111,8 @@
             </svg>
           </span>
           <span class="step-number">01</span>
-          <h3>Válaszd ki a tárgyat</h3>
-          <p>Nézd meg az elérhető tárgyakat, nyelveket és időpontokat lent.</p>
+          <h3 data-i18n="step1.title">Válaszd ki a tárgyat</h3>
+          <p data-i18n="step1.desc">Nézd meg az elérhető tárgyakat, nyelveket és időpontokat lent.</p>
         </div>
         <div class="step reveal">
           <span class="icon-badge icon-badge-lg">
@@ -124,8 +125,8 @@
             </svg>
           </span>
           <span class="step-number">02</span>
-          <h3>Foglald le a helyed</h3>
-          <p>Regisztrálj pár kattintással a foglalási rendszerünkben — ingyenes.</p>
+          <h3 data-i18n="step2.title">Foglald le a helyed</h3>
+          <p data-i18n="step2.desc">Regisztrálj pár kattintással a foglalási rendszerünkben — ingyenes.</p>
         </div>
         <div class="step reveal">
           <span class="icon-badge icon-badge-lg">
@@ -136,8 +137,8 @@
             </svg>
           </span>
           <span class="step-number">03</span>
-          <h3>Tanulj és sikerülj</h3>
-          <p>Vegyél részt az órán kiscsoportban, és készülj magabiztosan a vizsgára.</p>
+          <h3 data-i18n="step3.title">Tanulj és sikerülj</h3>
+          <p data-i18n="step3.desc">Vegyél részt az órán kiscsoportban, és készülj magabiztosan a vizsgára.</p>
         </div>
       </div>
     </div>
@@ -145,20 +146,20 @@
 
   <section class="section" id="pillanatok">
     <div class="container">
-      <p class="eyebrow center">Közösség</p>
-      <h2 class="center">Pillanatképek</h2>
+      <p class="eyebrow center" data-i18n="gallery.eyebrow">Közösség</p>
+      <h2 class="center" data-i18n="gallery.heading">Pillanatképek</h2>
       <div class="gallery-grid">
         <div class="gallery-item reveal">
-          <img src="assets/photo-team-courtyard.jpg" alt="A Corvinus Student Tutoring csapata">
+          <img src="assets/photo-team-courtyard.jpg" alt="A Corvinus Student Tutoring csapata" data-i18n-alt="gallery.alt.team">
         </div>
         <div class="gallery-item reveal">
-          <img src="assets/photo-class.jpg" alt="Óra közben egy korrepetáláson">
+          <img src="assets/photo-class.jpg" alt="Óra közben egy korrepetáláson" data-i18n-alt="gallery.alt.class">
         </div>
         <div class="gallery-item reveal">
-          <img src="assets/photo-sport.jpg" alt="A csapat sportolás közben">
+          <img src="assets/photo-sport.jpg" alt="A csapat sportolás közben" data-i18n-alt="gallery.alt.sport">
         </div>
         <div class="gallery-item reveal">
-          <img src="assets/photo-team-bridge.jpg" alt="A csapat a Szabadság hídnál">
+          <img src="assets/photo-team-bridge.jpg" alt="A csapat a Szabadság hídnál" data-i18n-alt="gallery.alt.bridge">
         </div>
       </div>
     </div>
@@ -169,19 +170,19 @@
       <div class="stats-grid">
         <div class="stat">
           <span class="stat-number">50+</span>
-          <span class="stat-label">Segített Diák</span>
+          <span class="stat-label" data-i18n="stats.students">Segített Diák</span>
         </div>
         <div class="stat">
           <span class="stat-number">20+</span>
-          <span class="stat-label">Megtartott Óra</span>
+          <span class="stat-label" data-i18n="stats.classes">Megtartott Óra</span>
         </div>
         <div class="stat">
           <span class="stat-number">10+</span>
-          <span class="stat-label">Szakértő Oktató</span>
+          <span class="stat-label" data-i18n="stats.tutors">Szakértő Oktató</span>
         </div>
         <div class="stat">
           <span class="stat-number">4.9</span>
-          <span class="stat-label">Átlagos Értékelés</span>
+          <span class="stat-label" data-i18n="stats.rating">Átlagos Értékelés</span>
         </div>
       </div>
     </div>
@@ -189,8 +190,8 @@
 
   <section class="section" id="orak">
     <div class="container">
-      <p class="eyebrow center">Elérhető tárgyak</p>
-      <h2 class="center">Órák, amikre most jelentkezhetsz</h2>
+      <p class="eyebrow center" data-i18n="subjects.eyebrow">Elérhető tárgyak</p>
+      <h2 class="center" data-i18n="subjects.heading">Órák, amikre most jelentkezhetsz</h2>
       <div class="subjects-grid">
 
         <div class="subject-card reveal">
@@ -199,13 +200,13 @@
               <path d="M2 15c2-7 5-7 7 0s5 7 7 0 3-7 6-7"/>
             </svg>
           </span>
-          <h3>Matematika</h3>
+          <h3 data-i18n="subj.math">Matematika</h3>
           <ul class="subject-meta">
-            <li>Nyelv: Magyar / Angol</li>
-            <li>Heti 2 alkalom · 1 óra</li>
-            <li>Max. 15 fő · Corvinus terem</li>
+            <li data-i18n="subj.lang">Nyelv: Magyar / Angol</li>
+            <li data-i18n="subj.schedule">Heti 2 alkalom · 1 óra</li>
+            <li data-i18n="subj.location">Max. 15 fő · Corvinus terem</li>
           </ul>
-          <span class="badge">Ingyenes</span>
+          <span class="badge" data-i18n="feature.free.title">Ingyenes</span>
         </div>
 
         <div class="subject-card reveal">
@@ -215,13 +216,13 @@
               <polyline points="15 6 21 6 21 12"/>
             </svg>
           </span>
-          <h3>Makroökonómia</h3>
+          <h3 data-i18n="subj.macro">Makroökonómia</h3>
           <ul class="subject-meta">
-            <li>Nyelv: Magyar / Angol</li>
-            <li>Heti 2 alkalom · 1 óra</li>
-            <li>Max. 15 fő · Corvinus terem</li>
+            <li data-i18n="subj.lang">Nyelv: Magyar / Angol</li>
+            <li data-i18n="subj.schedule">Heti 2 alkalom · 1 óra</li>
+            <li data-i18n="subj.location">Max. 15 fő · Corvinus terem</li>
           </ul>
-          <span class="badge">Ingyenes</span>
+          <span class="badge" data-i18n="feature.free.title">Ingyenes</span>
         </div>
 
         <div class="subject-card reveal">
@@ -231,13 +232,13 @@
               <circle cx="12" cy="12" r="9"/>
             </svg>
           </span>
-          <h3>Mikroökonómia</h3>
+          <h3 data-i18n="subj.micro">Mikroökonómia</h3>
           <ul class="subject-meta">
-            <li>Nyelv: Magyar / Angol</li>
-            <li>Heti 2 alkalom · 1 óra</li>
-            <li>Max. 15 fő · Corvinus terem</li>
+            <li data-i18n="subj.lang">Nyelv: Magyar / Angol</li>
+            <li data-i18n="subj.schedule">Heti 2 alkalom · 1 óra</li>
+            <li data-i18n="subj.location">Max. 15 fő · Corvinus terem</li>
           </ul>
-          <span class="badge">Ingyenes</span>
+          <span class="badge" data-i18n="feature.free.title">Ingyenes</span>
         </div>
 
         <div class="subject-card reveal">
@@ -249,13 +250,13 @@
               <line x1="3" y1="20" x2="21" y2="20"/>
             </svg>
           </span>
-          <h3>Adatelemzés 1</h3>
+          <h3 data-i18n="subj.data">Adatelemzés 1</h3>
           <ul class="subject-meta">
-            <li>Nyelv: Magyar / Angol</li>
-            <li>Heti 2 alkalom · 1 óra</li>
-            <li>Max. 15 fő · Corvinus terem</li>
+            <li data-i18n="subj.lang">Nyelv: Magyar / Angol</li>
+            <li data-i18n="subj.schedule">Heti 2 alkalom · 1 óra</li>
+            <li data-i18n="subj.location">Max. 15 fő · Corvinus terem</li>
           </ul>
-          <span class="badge">Ingyenes</span>
+          <span class="badge" data-i18n="feature.free.title">Ingyenes</span>
         </div>
 
       </div>
@@ -264,9 +265,9 @@
 
   <section class="section section-alt" id="foglalas">
     <div class="container">
-      <p class="eyebrow center">Foglalás</p>
-      <h2 class="center">Foglald le a helyed egy órán</h2>
-      <p class="center booking-intro">Az időpontfoglalás Microsoft Bookings rendszeren keresztül történik. Válaszd ki a tárgyat, a neked megfelelő időpontot, és foglalj helyet — mindössze pár kattintás.</p>
+      <p class="eyebrow center" data-i18n="booking.eyebrow">Foglalás</p>
+      <h2 class="center" data-i18n="booking.heading">Foglald le a helyed egy órán</h2>
+      <p class="center booking-intro" data-i18n="booking.intro">Az időpontfoglalás Microsoft Bookings rendszeren keresztül történik. Válaszd ki a tárgyat, a neked megfelelő időpontot, és foglalj helyet — mindössze pár kattintás.</p>
 
       <div class="booking-embed" id="booking-embed">
         <iframe
@@ -276,8 +277,8 @@
           loading="lazy">
         </iframe>
         <div class="booking-fallback">
-          <p>Nem jelenik meg a foglaló doboz, vagy inkább külön lapon nyitnád meg?</p>
-          <a href="https://outlook.office.com/book/Corvinustutring@cloud.uni-corvinus.hu/?ismsaljsauthenabled" class="btn btn-primary" target="_blank" rel="noopener">Foglalás megnyitása külön lapon</a>
+          <p data-i18n="booking.fallbackText">Nem jelenik meg a foglaló doboz, vagy inkább külön lapon nyitnád meg?</p>
+          <a href="https://outlook.office.com/book/Corvinustutring@cloud.uni-corvinus.hu/?ismsaljsauthenabled" class="btn btn-primary" target="_blank" rel="noopener" data-i18n="booking.fallbackLink">Foglalás megnyitása külön lapon</a>
         </div>
       </div>
     </div>
@@ -285,38 +286,38 @@
 
   <section class="section" id="gyik">
     <div class="container">
-      <p class="eyebrow center">Gyakori kérdések</p>
-      <h2 class="center">GYIK</h2>
+      <p class="eyebrow center" data-i18n="faq.eyebrow">Gyakori kérdések</p>
+      <h2 class="center" data-i18n="faq.heading">GYIK</h2>
       <div class="faq-list">
 
         <details class="faq-item reveal">
-          <summary>Tényleg teljesen ingyenes?</summary>
-          <p>Igen. Minden korrepetálásunk díjmentes — csak előzetes regisztráció szükséges, hogy tudjuk a létszámot tervezni.</p>
+          <summary data-i18n="faq1.q">Tényleg teljesen ingyenes?</summary>
+          <p data-i18n="faq1.a">Igen. Minden korrepetálásunk díjmentes — csak előzetes regisztráció szükséges, hogy tudjuk a létszámot tervezni.</p>
         </details>
 
         <details class="faq-item reveal">
-          <summary>Ki jelentkezhet az órákra?</summary>
-          <p>Bármely Corvinus hallgató, elsősorban alsóbb éveseket és gólyákat várunk, akiknek segítségre van szükségük a meghirdetett tárgyakból.</p>
+          <summary data-i18n="faq2.q">Ki jelentkezhet az órákra?</summary>
+          <p data-i18n="faq2.a">Bármely Corvinus hallgató, elsősorban alsóbb éveseket és gólyákat várunk, akiknek segítségre van szükségük a meghirdetett tárgyakból.</p>
         </details>
 
         <details class="faq-item reveal">
-          <summary>Hogyan tudok regisztrálni egy órára?</summary>
-          <p>A "Foglalás" szekcióban található Microsoft Bookings felületen válaszd ki a tárgyat és az időpontot, majd add meg az adataidat a foglaláshoz.</p>
+          <summary data-i18n="faq3.q">Hogyan tudok regisztrálni egy órára?</summary>
+          <p data-i18n="faq3.a">A "Foglalás" szekcióban található Microsoft Bookings felületen válaszd ki a tárgyat és az időpontot, majd add meg az adataidat a foglaláshoz.</p>
         </details>
 
         <details class="faq-item reveal">
-          <summary>Van minimum vagy maximum létszám?</summary>
-          <p>Az órák kiscsoportosak, maximum 15 fővel indulnak, hogy mindenki kapjon elég figyelmet.</p>
+          <summary data-i18n="faq4.q">Van minimum vagy maximum létszám?</summary>
+          <p data-i18n="faq4.a">Az órák kiscsoportosak, maximum 15 fővel indulnak, hogy mindenki kapjon elég figyelmet.</p>
         </details>
 
         <details class="faq-item reveal">
-          <summary>Mi történik, ha egy óra elmarad?</summary>
-          <p>Ha egy óra elmaradna, minden regisztrált diákot előre értesítünk, és igyekszünk pótidőpontot biztosítani.</p>
+          <summary data-i18n="faq5.q">Mi történik, ha egy óra elmarad?</summary>
+          <p data-i18n="faq5.a">Ha egy óra elmaradna, minden regisztrált diákot előre értesítünk, és igyekszünk pótidőpontot biztosítani.</p>
         </details>
 
         <details class="faq-item reveal">
-          <summary>Szeretnék én is oktatni, hogyan jelentkezhetek?</summary>
-          <p>Örülünk az érdeklődésnek! Írj nekünk a lenti elérhetőségeken, és elküldjük a jelentkezési részleteket.</p>
+          <summary data-i18n="faq6.q">Szeretnék én is oktatni, hogyan jelentkezhetek?</summary>
+          <p data-i18n="faq6.a">Örülünk az érdeklődésnek! Írj nekünk a lenti elérhetőségeken, és elküldjük a jelentkezési részleteket.</p>
         </details>
 
       </div>
@@ -330,16 +331,16 @@
     <div>
       <img src="assets/logo.png" alt="Corvinus Student Tutoring" class="logo-mark footer-logo">
       <p>Corvinus Student Tutoring</p>
-      <p class="footer-sub">Diákszervezet a Budapesti Corvinus Egyetemen</p>
+      <p class="footer-sub" data-i18n="footer.tagline">Diákszervezet a Budapesti Corvinus Egyetemen</p>
     </div>
     <div class="footer-links">
-      <a href="#rolunk">Rólunk</a>
-      <a href="#orak">Órák</a>
-      <a href="#foglalas">Foglalás</a>
-      <a href="#gyik">GYIK</a>
+      <a href="#rolunk" data-i18n="nav.about">Rólunk</a>
+      <a href="#orak" data-i18n="nav.classes">Órák</a>
+      <a href="#foglalas" data-i18n="nav.booking">Foglalás</a>
+      <a href="#gyik" data-i18n="nav.faq">GYIK</a>
     </div>
     <div class="footer-contact">
-      <p>Kapcsolat: <a href="mailto:info@corvinustutoring.hu">info@corvinustutoring.hu</a></p>
+      <p data-i18n-html="footer.contact">Kapcsolat: <a href="mailto:info@corvinustutoring.hu">info@corvinustutoring.hu</a></p>
     </div>
   </div>
   <div class="container footer-bottom">

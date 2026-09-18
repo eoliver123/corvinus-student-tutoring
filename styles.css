@@ -172,6 +172,31 @@ h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); }
 
 .nav-cta { margin-left: 20px; }
 
+.lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 46px;
+  height: 36px;
+  padding: 0 10px;
+  margin-left: 14px;
+  border-radius: 999px;
+  border: 2px solid var(--border);
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+}
+
+.lang-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent-dark);
+}
+
 .nav-toggle {
   display: none;
   flex-direction: column;
